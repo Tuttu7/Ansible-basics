@@ -37,6 +37,7 @@ vi inventoryfile.txt
 ### Installing Httpd Using Ansible 
 ```
 [root@ip-172-31-43-140 ec2-user]# ansible -i inventory.txt amazon -m yum -a 'name=httpd state=present' 
+
  [WARNING]: Platform linux on host 172.31.44.235 is using the discovered Python interpreter at /usr/bin/python, but future installation of another
 Python interpreter could change this. See https://docs.ansible.com/ansible/2.8/reference_appendices/interpreter_discovery.html for more information.
 
